@@ -30,16 +30,6 @@ const CONFIG = {
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], // Example repos
       },
     },
-    external: {
-      projects: [
-        // Example external project (add or remove as needed)
-        {
-          title: 'My Portfolio',
-          description: 'Personal portfolio website built with GitProfile.',
-          link: 'https://kiandaga.github.io/',
-        },
-      ],
-    },
   },
 
   seo: { 
