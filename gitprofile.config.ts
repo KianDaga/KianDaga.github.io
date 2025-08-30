@@ -97,7 +97,7 @@ const CONFIG = {
   hotjar: { id: '', snippetVersion: 6 },
 
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
 
     disableSwitch: false, // Show/hide theme switcher
     respectPrefersColorScheme: false, // Use system preference
