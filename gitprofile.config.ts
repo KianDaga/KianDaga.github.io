@@ -4,12 +4,14 @@ const CONFIG = {
   github: {
     username: 'kiandaga', // Your GitHub org/user name. (This is the only required config)
   },
+
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
+
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -25,30 +27,43 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // Example repos
       },
     },
     external: {
-      
+      projects: [
+        // Example external project (add or remove as needed)
+        {
+          title: 'My Portfolio',
+          description: 'Personal portfolio website built with GitProfile.',
+          link: 'https://kiandaga.github.io/',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Kian Daga', description: '', imageURL: '' },
+
+  seo: { 
+    title: 'Portfolio of Kian Daga', 
+    description: 'Showcasing my projects, certifications, and skills in Python, JavaScript, and web development.', 
+    imageURL: 'https://avatars.githubusercontent.com/u/kiandaga.png', // Replace with your GitHub avatar URL or any custom image
+  },
+
   social: {
     x: 'DagaKian81085',
     facebook: 'Kian Daga',
     instagram: 'dagakian',
     reddit: 'u/Far-Cantaloupe-6156',
-    youtube: 'BloxDudeKD', // example: 'pewdiepie'
+    youtube: 'BloxDudeKD',
     medium: 'Kian daga',
     discord: 'fifabros.official',
     email: 'kiandaga3@gmail.com',
   },
+
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Replace with your real resume link
   },
+
   skills: [
     'HTML',
     'Python',
@@ -56,7 +71,7 @@ const CONFIG = {
     'TypeScript',
     'Git',
   ],
-  
+
   certifications: [
     {
       name: 'Python Practical',
@@ -69,43 +84,36 @@ const CONFIG = {
       body: 'Python Advanced Course',
       year: 'May 2025',
       link: 'https://theyoungmaker.com',
-    },  
-    
+    },
     {
       name: 'Python Intermediate',
       body: 'Python Intermediate Course',
       year: 'February 2025',
       link: 'https://theyoungmaker.com',
-    },  
-
+    },
     {
       name: 'Python Beginner',
       body: 'Python Beginner Course',
       year: 'November 2024',
       link: 'https://theyoungmaker.com',
-    },  
+    },
   ],
-  
+
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
+
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
+
   themeConfig: {
     defaultTheme: 'lofi',
 
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: false, // Show/hide theme switcher
+    respectPrefersColorScheme: false, // Use system preference
+    displayAvatarRing: true, // Show profile picture ring
 
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
-    displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
+    // Available themes
     themes: [
       'light',
       'dark',
