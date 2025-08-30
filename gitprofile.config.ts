@@ -87,6 +87,12 @@ const CONFIG = {
       year: 'November 2024',
       link: 'https://theyoungmaker.com',
     },
+    {
+      name: 'HTML and CSS',
+      body: 'Basic HTML and CSS course',
+      year: 'July 2022',
+      link: 'https://www.cyborgrobotics.in',
+    },
   ],
 
   googleAnalytics: {
