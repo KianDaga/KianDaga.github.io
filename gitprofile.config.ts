@@ -73,43 +73,34 @@ const CONFIG = {
     'TypeScript',
     'Git',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
+  
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
-  educations: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      name: 'Python Practical',
+      body: 'Python Practical Projects Course',
+      year: 'August 2025',
+      link: 'https://theyoungmaker.com',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+      name: 'Python Advanced',
+      body: 'Python Advanced Course',
+      year: 'May 2025',
+      link: 'https://theyoungmaker.com',
+    },  
+    
+    {
+      name: 'Python Intermediate',
+      body: 'Python Intermediate Course',
+      year: 'February 2025',
+      link: 'https://theyoungmaker.com',
+    },  
+
+    {
+      name: 'Python Beginner',
+      body: 'Python Beginner Course',
+      year: 'November 2024',
+      link: 'https://theyoungmaker.com',
+    },  
   ],
   
   googleAnalytics: {
