@@ -51,7 +51,7 @@ const CONFIG = {
 
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Replace with your real resume link
+      'https://drive.google.com/file/d/1CEXBpd76tPv1SyaWT4fqcZ_SpvDUp3U7/view?usp=sharing', // Replace with your real resume link
   },
 
   skills: [
